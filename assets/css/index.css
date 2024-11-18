@@ -1,5 +1,11 @@
 /* General styles */
 
+.background-image {
+  background-image: url('/assets/images/home.png');
+  background-size: cover;
+  background-position: center;
+}
+
 .logo-section {
   display: flex;
   flex-wrap: wrap;
@@ -50,6 +56,10 @@
 
 .item img {
   max-width: 100%;
+}
+
+.img-icon-container{
+  height: 120px;
 }
 
 .img-icon{
