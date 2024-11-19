@@ -12,10 +12,10 @@
   --bg-color: #080808;
   --second-bg-color: #21b1f4;
   --text-color: #000;
-  --main-color: #F5F5F5;
+  --main-color: #f5f5f5;
 }
 
-section{
+section {
   margin-top: 40px;
 }
 
@@ -25,7 +25,6 @@ html {
   margin: 0;
   font-size: 60%;
 }
-
 
 body {
   background: var(--main-color);
@@ -40,39 +39,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
-  color: #F04100;
+  color: #f04100;
 }
 
-.navbar {
-  display: flex;
-  gap: 2px;
-}
-
-.navbar a {
-  color: #F04100;
-  text-decoration: none;
-  font-size: 1.8rem;
-  border-bottom: 3px solid transparent;
-  margin-left: 4rem;
-}
-
-.navbar a:hover,
-.navbar a.active {
-  color: var(--text-color);
-}
-
-.hamburger-icon {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.hamburger-icon span {
-  height: 3px;
-  width: 30px;
-  background-color: #F04100;
-  margin: 3px 0;
-}
 
 .container {
   width: 100%;
@@ -99,66 +68,50 @@ main {
 }
 
 .heading-title-center {
-text-align: center;
+  text-align: center;
 }
 
 .heading-title-left {
-text-align: left !important;
+  text-align: left !important;
 }
-
 
 .info {
-flex: 1;
-margin-right: 20px;
-margin-top: 20px;
+  flex: 1;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
+.text-title-xl {
+  font-family: "Noto Serif", serif;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 70px;
+}
 
 /* Responsive styles */
 @media (max-width: 768px) {
 
-  .navbar {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #A9A9A9;
-    text-align: center;
-    padding: 20px;
-    margin-top: 50PX;
+  .text-title-xl {
+    font-family: "Noto Serif", serif;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 35px;
   }
+} 
 
-  .navbar.active {
-    display: flex;
-  }
-
-  .hamburger-icon {
-    display: flex;
-  }
-
-  .container {
-    flex-direction: column;
-}
-  .info {
-      order: 1;
-  }
-}
-
-   /* FOOTER */
+/* FOOTER */
 
 .footer {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   width: 100%;
   padding: 5px 0;
-  background-color: #F04100;
+  background-color: #f04100;
   box-sizing: border-box;
   height: 100px;
-  color: #FFF;
-   }
+  color: #fff;
+}
 
 .footer .copyright {
   margin-top: 5px;
@@ -166,7 +119,6 @@ margin-top: 20px;
   color: var(--main-color);
   margin-right: 20px;
 }
-
 
 .text-container {
   display: flex;
@@ -176,6 +128,3 @@ margin-top: 20px;
   flex: 1;
   max-width: calc(100% - 60px);
 }
-
-  
-

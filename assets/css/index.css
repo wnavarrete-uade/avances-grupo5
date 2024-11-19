@@ -1,7 +1,12 @@
 /* General styles */
 
+.py-5 {
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+}
+
 .background-image {
-  background-image: url('/assets/images/home.png');
+  background-image: url('/assets/images/img_home.png');
   background-size: cover;
   background-position: center;
 }
