@@ -6,7 +6,7 @@
 }
 
 .background-image {
-  background-image: url('assets/images/img_home.png');
+  background-image: url('../../assets/images/img_home.png');
   background-size: cover;
   background-position: center;
 }
