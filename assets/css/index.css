@@ -125,7 +125,7 @@
 
 /* LINKS SECTION - BEGIN */
 
-/* .github-button {
+.github-button {
   width: 300px;
   background-color: #73b786;
   color: white;
@@ -169,13 +169,13 @@
 .figma-button {
   display: inline-block;
   margin-right: 30px;
-} */
+}
 
 @media (max-width: 768px) {
-  /* .github-button,
+  .github-button,
   .figma-button {
     margin-top: 10px;
-  } */
+  }
 }
 
 /* LINKS SECTION - END */
